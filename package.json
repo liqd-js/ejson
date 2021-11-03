@@ -1,0 +1,26 @@
+{
+  "name": "@liqd-js/ejson",
+  "description": "Extended JSON",
+  "version": "0.0.1",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/ejson.js",
+  "homepage": "https://liqd-js.com/lib/ejson",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liqd-js/ejson.git"
+  },
+  "keywords": [
+    "ejson",
+    "json",
+    "liqd-js",
+    "liqd"
+  ]
+}
